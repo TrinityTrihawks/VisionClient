@@ -13,6 +13,14 @@ public class NTInteraction {
 		NetworkTableEntry entry  = table.getEntry("X");
 		entry.setDouble(47);
 		
+		while(true) {
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
 	}
 
 }
