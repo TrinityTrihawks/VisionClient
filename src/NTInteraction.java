@@ -11,7 +11,7 @@ public class NTInteraction {
 		NetworkTableInstance inst = NetworkTableInstance.getDefault();
 		NetworkTable table = inst.getTable("datatable");
 		NetworkTableEntry entry  = table.getEntry("X");
-		
+		entry.setDouble(47);
 		
 	}
 
